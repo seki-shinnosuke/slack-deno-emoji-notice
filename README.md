@@ -4,7 +4,7 @@
 
 # Setup
 本BotはSlack CLIを利用して作成しています  
-公式サイトのスタートアップガイドに従ってCLIのインストールを行なってください  
+公式サイトの[スタートアップガイド](https://api.slack.com/future/quickstart)に従ってCLIのインストールを行なってください  
 
 # 個別設定
 [env.ts](./env.ts) に通知を受け取りたいチャンネルのIDに変更してください  
