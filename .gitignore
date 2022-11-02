@@ -1,0 +1,6 @@
+### Ignore ###
+dist
+package
+.slack/
+### Settings ###
+.DS_Store
