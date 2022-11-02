@@ -1,5 +1,6 @@
 # slack-deno-emoji-notice
-絵文字登録を通知してくれるSlack platformを利用したBot
+絵文字登録を通知してくれるSlack platformを利用したBot  
+![](./screenshot/screenshot.png)
 
 # Setup
 本BotはSlack CLIを利用して作成しています  
