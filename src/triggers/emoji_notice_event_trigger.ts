@@ -1,9 +1,10 @@
 import { Trigger } from "deno-slack-api/types.ts";
 import EmojiNoticeWorkflow from "../workflows/emoji_notice_workflow.ts";
+import { TriggerTypes } from "deno-slack-api/typed-method-types/workflows/triggers/mod.ts";
 
 const emojiNoticeEventTrigger: Trigger<typeof EmojiNoticeWorkflow.definition> =
   {
-    type: "event",
+    type: TriggerTypes.Event,
     event: {
       event_type: "slack#/events/emoji_changed",
     },
